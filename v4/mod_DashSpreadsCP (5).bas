@@ -140,8 +140,6 @@ Sub CrearDashboardSpreadsCP()
             .Caption = rats(i)
             .LinkedCell = "'" & SH_DASH & "'!" & lnk
             .Value = IIf(i <= 2, xlOn, xlOff)
-            .Font.Name = "Arial"
-            .Font.Size = 8
             .Name = "chk" & i
         End With
     Next i
